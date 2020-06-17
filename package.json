@@ -1,0 +1,19 @@
+{
+  "name": "rewardbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "comfy.js": "^1.0.18",
+    "dotenv": "^8.2.0",
+    "robotjs": "^0.6.0"
+  }
+}
