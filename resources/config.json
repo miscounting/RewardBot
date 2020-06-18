@@ -5,35 +5,30 @@
             "name": "beard",
             "twitch_reward_id": "d72c04c1-0c6e-4b83-ad06-e1abf1c2d6ca",
             "action": {
-                "type": "press_hotkeys",
-                "hotkeys": ["1", "shift", "control", "alt", "command"]
+                "press_hotkeys": ["1", "shift", "control", "alt", "command"]
             }
         },
         {
             "name": "glam",
             "twitch_reward_id": "c1b3575f-273e-4427-b999-82a587fa2c62",
             "action": {
-                "type": "press_hotkeys",
-                "hotkeys": ["2", "shift", "control", "alt", "command"]
+                "press_hotkeys": ["2", "shift", "control", "alt", "command"]
             }
         },
         {
             "name": "random unflattering filter",
             "twitch_reward_id": "a4188288-eb26-42fb-a613-a25df345c950",
             "action": {
-                "type": "perform_one_action_at_random",
-                "actions": [
+                "perform_one_action_at_random": [
                     {
                         "name": "spider",
-                        "type": "press_hotkeys",
-                        "hotkeys": ["a", "shift", "control", "alt", "command"]
+                        "press_hotkeys": ["a", "shift", "control", "alt", "command"]
                     },
                     {
-                        "name": "shrinky dink",
-                        "type": "press_hotkeys",
-                        "hotkeys": ["b", "shift", "control", "alt", "command"]
+                        "name": "fart sound",
+                        "whisper_to_bot": "!farts"
                     }
-                ]
+                ]                
             }
         }
     ]
