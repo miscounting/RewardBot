@@ -4,7 +4,10 @@ A simple bot designed to integrate with Twitch custom channel point rewards.  Re
 
 # To use
 ### Install
-RewardBot is written in NodeJs.  You'll need to install NodeJs and Python (2 or 3).  
+RewardBot is written in NodeJs.  You'll need to install NodeJs and Python (2 or 3). 
+
+Then create a ./resources/.env file containing:
+> TWITCHUSER=yourchannelname
 
 ## Configure
 
