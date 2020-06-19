@@ -39,7 +39,7 @@ interface Command {
 }
 
 // validate
-const errors = config.commands.reduce(function (errs, command) {
+const errors = config.commands.reduce<string[]>(function (errs, command) {
     const commandName = "Command: " + 
     (typeof command.name !== 'undefined' ? command.name : command.twitch_reward_id);
     if (!command.twitch_reward_id) {

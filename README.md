@@ -32,4 +32,4 @@ Edit the included config.json file to contain _your_ custom commands and actions
 
 ## Run
 
-The included run.sh script will get you going!  (Windows users may want to rename this file to run.cmd)
+The included scripts (run.cmd for Windows, run.sh for Mac/linux) will get you going!
