@@ -111,4 +111,4 @@ ComfyJS.onChat = (user, message, flags, self, extra, customCommand) => {
 ComfyJS.onError = (error) => {
     console.log(error)
 }
-ComfyJS.Init(process.env.TWITCHUSER);
+ComfyJS.Init(process.env.TWITCHUSER, process.env.OAUTH);
