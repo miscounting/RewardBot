@@ -6,8 +6,7 @@ A simple bot designed to integrate with Twitch custom channel point rewards.  Re
 ### Install
 RewardBot is written in NodeJs.  You'll need to install NodeJs and Python (2 or 3). 
 
-Then create a ./resources/.env file containing:
-> TWITCHUSER=yourchannelname
+Then edit the a ./resources/.env file so that it contains your channel name and an oauth token.  To create the OAUTH token you can use https://twitchapps.com/tmi/
 
 ## Configure
 
@@ -18,6 +17,8 @@ This repository includes an example config.json file that should help you get st
 * Perform one of a list of actions at random!
 
 ### Find your custom reward IDs
+Create a custom reward on your Twitch channel.
+
 Open InstaFluff's reward ID finder tool:
 
 [https://www.instafluff.tv/TwitchCustomRewardID/?channel=yourchannel](https://www.instafluff.tv/TwitchCustomRewardID/?channel=yourchannel)
